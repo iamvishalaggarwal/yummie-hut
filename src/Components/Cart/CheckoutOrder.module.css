@@ -1,0 +1,84 @@
+.form {
+  margin: 1rem 0;
+  height: 19rem;
+  overflow: auto;
+  /* display: block; */
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+  font-style: italic;
+}
+
+.control input {
+  font-style: italic;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 17rem;
+  max-width: 100%;
+  background-color: white;
+}
+.control input:focus,
+.control input:active {
+  border-color: black;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  background-color: whitesmoke;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.actions button {
+  font: inherit;
+  color: gray;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  border: 1px solid #850e35;
+  background-color: #850e35;
+  color: white;
+}
+
+.actions .submit {
+  border: 1px solid #850e35;
+  background-color: white;
+  color: #850e35;
+}
+
+.actions .submit:hover,
+.actions .submit:active {
+  background-color: #850e35;
+  color: white;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+
+.personalDetails {
+  display: flex;
+}
+#floatingName {
+  margin-right: 1rem;
+}

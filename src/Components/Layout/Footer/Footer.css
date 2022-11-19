@@ -1,0 +1,25 @@
+.footer-page {
+  background-color: white;
+  justify-content: space-between !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: -2rem;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-pack: justify !important;
+  box-sizing: border-box;
+  background-image: url("../../../Assests/footer.png");
+  background-position: 50% -35px;
+  background-color: white;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.footer-row {
+  display: flex;
+  padding: 0 0 1px 12rem;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}

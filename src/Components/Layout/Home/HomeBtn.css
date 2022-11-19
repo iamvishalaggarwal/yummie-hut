@@ -1,0 +1,10 @@
+.menuBtn {
+  border: 2px solid #850e35;
+  background-color: #850e35;
+  color: white;
+  padding: 10px 5rem;
+  margin-top: 2rem;
+  border-radius: 28px 3px;
+  cursor: pointer;
+}
+

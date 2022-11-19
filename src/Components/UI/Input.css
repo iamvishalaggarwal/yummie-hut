@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.input label {
+  margin-right: 1rem;
+  color: #ee6983;
+  font-style: italic;
+}
+
+.input input {
+  width: 3rem;
+  border: 1px solid #ccc;
+  font-family: cursive;
+  padding-left: 0.75rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
